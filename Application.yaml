@@ -24,7 +24,7 @@ kind: Service
 metadata:
   name: project-k8s-service
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: project-k8s
   ports:
